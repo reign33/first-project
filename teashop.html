@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <title>Tea bucks</title>
+    <head><link rel="stylesheet" href="./teashop.css" type="text/css"></head>
+
+    <body id="top">
+        <header id="header1">
+            <div class="titlelogo">
+                <img src="./images/starbuckspringles.jpg" style="border-radius: 50%;"/>
+                <h4>The Tea Bucks Ipsum</h4>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="hover-nav options">Mission</a></li>
+                    <li><a href="#tea-month" class="hover-nav options">Feautured Tea</a></li>
+                    <li><a href="#information" class="hover-nav options">Locations</a></li>
+                    <li><a href="#products" class="hover-nav options">Menu</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="center">
+            <div class="center-text">
+                <h2>Our Mission</h2>
+                <h3>Handpicked, Artisanally Curated, Nature Viewing, Good Health, Sustainable, Small Batch, Fair Trade, Organic Tea</h3>
+            </div>
+        </div>
+
+        <div id="tea-month">
+            <header>
+                <h1>Tea of the Month</h1>
+                <h3>Our best-seller's @ the Tea bucks Ipsum</h3>
+            </header>
+            <div id="products">
+                <div class="product">
+                    <img src="./images/img-berryblitz.jpg" id="myImg" alt="Fall Berry Blitz Tea" style="width:100%;max-width:300px"/>
+                    <p>Fall Berry Blitz Tea</p>
+                </div>
+                <div class="product">
+                    <img src="./images/img-spiced-rum.jpg" id="myImg1" alt="Spiced Rum Tea" style="width:100%;max-width:300px"/>
+                    <p>Spiced Rum Tea</p>
+                </div>
+                <div class="product">
+                    <img src="./images/img-donut.jpg" id="myImg2" alt="Seasonal Donuts" style="width:100%;max-width:300px"/>
+                    <p>Seasonal Donuts</p>
+                </div>
+                <div class="product">
+                    <img src="./images/img-myrtle-ave.jpg" id="myImg3" alt="Myrtle Ave Tea" style="width:100%;max-width:300px"/>
+                    <p>Myrtle Ave Tea</p>
+                </div>
+                <div class="product">
+                    <img src="./images/img-bedford-bizarre.jpg" id="myImg4" alt="Bedford Bizzare Tea" style="width:100%;max-width:300px"/>
+                    <p>Bedford Bizzare Tea</p>
+                </div>
+                <div class="product">
+                    <img src="./images/starbucksgreen.jpg" id="myImg5" alt="Green Cup Macha Tea" style="width:100%;max-width:300px"/>
+                    <p>Green Cup Macha Tea</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="information">
+            <h1>Locations</h1>
+            <div id="locations">
+                <div class="location">
+                    <h3>SM Mall of Asia</h3>
+                    <h4>Seaside, Boulevard</h4>
+                    <h4>123 Pasay</h4>
+                    <h4>Metro Manila</h4>
+                </div>
+
+                <div class="location">
+                    <h3>Pure Gold Tayuman</h3>
+                    <h4>Juan Luna Street</h4>
+                    <h4>Barangay 143</h4>
+                    <h4>Metro Manila</h4>
+                </div>
+
+                <div class="location">
+                    <h3>SM Aura</h3>
+                    <h4>Bonifacio Gobal</h4>
+                    <h4>Second Floor</h4>
+                    <h4>Taguig City, M.M.</h4>
+                </div>
+            </div>
+        </div>        
+
+        <div class="contact">
+            <h2><a href="#top">The Tea bucks Ipsum</a></h2>
+            <h5><a href="mailto:#">contact@teabucksipsum.com</a></h5>
+            <span>for more inquiries pls. call #0943-0599-748</span>
+        </div>
+
+        <footer>
+            <div id="footer_image">
+                <h4>copyright &copy; Tea Bucks Ipsum since 2023</h4>
+            </div>
+        </footer>
+
+
+<!---zoom image-->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image 0 and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the image 1 and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg1");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the image 2 and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg2");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the image 3 and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg3");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the image 4 and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg4");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg5");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+
+    </body>
+        
+</html>
