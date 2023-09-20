@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html>
-    <title>Tea bucks</title>
-    <head><link rel="stylesheet" href="./teashop.css" type="text/css"></head>
+<html lang="en">
+    <title>The Tea bucks</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./teashop.css" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
 
-    <body id="top">
+    <body id="top1">
         <header id="header1">
             <div class="titlelogo">
-                <img src="./images/starbuckspringles.jpg" style="border-radius: 50%;"/>
-                <h4>The Tea Bucks Ipsum</h4>
+                <a href="#">
+                    <img src="./images/starbuckspringles.jpg" style="border-radius: 50%;"/>
+                </a>
+                <h4>The Tea Bucks</h4>
             </div>
             <nav>
                 <ul>
@@ -15,6 +24,7 @@
                     <li><a href="#tea-month" class="hover-nav options">Feautured Tea</a></li>
                     <li><a href="#information" class="hover-nav options">Locations</a></li>
                     <li><a href="#products" class="hover-nav options">Menu</a></li>
+                    <li><a href="#footer_section" class="hover-nav options">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -27,33 +37,37 @@
         </div>
 
         <div id="tea-month">
+<!--carousel-->
+
+            <!--carousel-->
+
             <header>
                 <h1>Tea of the Month</h1>
-                <h3>Our best-seller's @ the Tea bucks Ipsum</h3>
+                <h3>Our best-seller's @ the Tea bucks</h3>
             </header>
             <div id="products">
                 <div class="product">
-                    <img src="./images/img-berryblitz.jpg" id="myImg" alt="Fall Berry Blitz Tea" style="width:100%;max-width:300px"/>
+                    <img src="./images/img-berryblitz.jpg" id="myImg" alt="Fall Berry Blitz Tea (PRICE: 150.00 PHP)" style="width:100%;max-width:300px"/>
                     <p>Fall Berry Blitz Tea</p>
                 </div>
                 <div class="product">
-                    <img src="./images/img-spiced-rum.jpg" id="myImg1" alt="Spiced Rum Tea" style="width:100%;max-width:300px"/>
+                    <img src="./images/img-spiced-rum.jpg" id="myImg1" alt="Spiced Rum Tea (PRICE: 250.00 PHP)" style="width:100%;max-width:300px"/>
                     <p>Spiced Rum Tea</p>
                 </div>
                 <div class="product">
-                    <img src="./images/img-donut.jpg" id="myImg2" alt="Seasonal Donuts" style="width:100%;max-width:300px"/>
+                    <img src="./images/img-donut.jpg" id="myImg2" alt="Seasonal Donuts per each (PRICE: 80.00 PHP)" style="width:100%;max-width:300px"/>
                     <p>Seasonal Donuts</p>
                 </div>
                 <div class="product">
-                    <img src="./images/img-myrtle-ave.jpg" id="myImg3" alt="Myrtle Ave Tea" style="width:100%;max-width:300px"/>
+                    <img src="./images/img-myrtle-ave.jpg" id="myImg3" alt="Myrtle Ave Tea (PRICE: 150.00 PHP)" style="width:100%;max-width:300px"/>
                     <p>Myrtle Ave Tea</p>
                 </div>
                 <div class="product">
-                    <img src="./images/img-bedford-bizarre.jpg" id="myImg4" alt="Bedford Bizzare Tea" style="width:100%;max-width:300px"/>
+                    <img src="./images/img-bedford-bizarre.jpg" id="myImg4" alt="Bedford Bizzare Tea (PRICE: 150.00 PHP)" style="width:100%;max-width:300px"/>
                     <p>Bedford Bizzare Tea</p>
                 </div>
                 <div class="product">
-                    <img src="./images/starbucksgreen.jpg" id="myImg5" alt="Green Cup Macha Tea" style="width:100%;max-width:300px"/>
+                    <img src="./images/starbucksgreen.jpg" id="myImg5" alt="Green Cup Macha Tea (PRICE: 280.00 PHP)" style="width:100%;max-width:300px"/>
                     <p>Green Cup Macha Tea</p>
                 </div>
             </div>
@@ -63,21 +77,21 @@
             <h1>Locations</h1>
             <div id="locations">
                 <div class="location">
-                    <h3>SM Mall of Asia</h3>
+                    <h3>MOA Tea Bucks</h3>
                     <h4>Seaside, Boulevard</h4>
                     <h4>123 Pasay</h4>
                     <h4>Metro Manila</h4>
                 </div>
 
                 <div class="location">
-                    <h3>Pure Gold Tayuman</h3>
-                    <h4>Juan Luna Street</h4>
-                    <h4>Barangay 143</h4>
-                    <h4>Metro Manila</h4>
+                    <h3>Tagaytay Tea Bucks</h3>
+                    <h4>Aguinaldo Highway</h4>
+                    <h4>Silang Crossing West</h4>
+                    <h4>Tagaytay</h4>
                 </div>
 
                 <div class="location">
-                    <h3>SM Aura</h3>
+                    <h3>SM Aura Tea Bucks</h3>
                     <h4>Bonifacio Gobal</h4>
                     <h4>Second Floor</h4>
                     <h4>Taguig City, M.M.</h4>
@@ -86,15 +100,31 @@
         </div>        
 
         <div class="contact">
-            <h2><a href="#top">The Tea bucks Ipsum</a></h2>
-            <h5><a href="mailto:#">contact@teabucksipsum.com</a></h5>
-            <span>for more inquiries pls. call #0943-0599-748</span>
+            <h2><a href="#top">The Tea bucks</a></h2>
+            <h5><a href="mailto:#">contact@teabucks.com</a></h5>
+            <p>for more inquiries pls. call #0943-0599-748</p>
         </div>
 
-        <footer>
-            <div id="footer_image">
-                <h4>copyright &copy; Tea Bucks Ipsum since 2023</h4>
+        <footer class="feet-001">
+            <div><p>“If somebody offers you an amazing opportunity but you are not sure you can do it, say yes – then learn how to do it later!”
+                ― Richard Branson</p><p>"Sometimes success is simply being able to drink an entire cup of coffee while it's still hot." - Tanya Masse</p>
+                <h4>copyright &copy; Tea Bucks since 2023</h4>
             </div>
+                <div id="footer_section">
+                <form class ="footerfont" action="./action_page.php" method="get">
+                    <p>for quotation of our products.</p>
+                    <p>Name (required)</p>
+                    <label for="name">Name </label><br>
+                    <input type="text" id="name" name="name" required minlength="4" maxlength="15" size="15" /><br>
+                    <label for="surname">Surname </label><br>
+                    <input type="text" id="surname" name="surname" required minlength="4" maxlength="15" size="15" /><br><br>
+                    <textarea rows = "4" cols = "40" name = "description">type your concern and suggestion here...</textarea><br>
+                    <label for="email1">Email </label><br>
+                    <input type="email" name="email1" id="email1"/><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            
         </footer>
 
 
@@ -181,7 +211,6 @@ span.onclick = function() {
 }
 </script>
 
-
-    </body>
+</body>
         
 </html>
