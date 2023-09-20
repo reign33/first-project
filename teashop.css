@@ -92,32 +92,6 @@ header nav ul li a:hover {
 }
 
 
-@media only screen and (max-width: 480px) {
-    #menu {
-        display: inline;
-        position: relative;
-    }
-
-    .options {
-        display: none;
-        position: relative;
-    }
-
-    body{
-        font-size: 12px;
-    }
-
-    .feet-001{
-        inline-height: 0;
-        inline-width: 0;
-        font-size: 12px;
-    }
-}
-
-
-
-
-
 /* CENTER HEADER */
 
 .center {
@@ -405,3 +379,24 @@ text-shadow: 4px 4px 10px black;
 }
 /* ---      --- */
 
+@media only screen and (max-width: 480px) {
+    #menu {
+        display: inline;
+        position: relative;
+    }
+
+    .options {
+        display: none;
+        position: relative;
+    }
+
+    body{
+        font-size: 12px;
+    }
+
+    .footer {
+        inline-height: 0;
+        inline-width: 0;
+        font-size: 12px;
+    }
+}
