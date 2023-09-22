@@ -242,7 +242,7 @@ div.contact {
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     border-top: 5px solid #ffe7e7;
 }
@@ -417,9 +417,9 @@ text-shadow: 4px 4px 10px black;
         .feet-001 div:first-child {
             color: white;
             font-family: cobblestone, serif;
-            font-size: 15px;
-            padding: 10px;
-            padding-top: 10px;
+            font-size: 12px;
+            padding: 5px;
+            padding-top: 5px;
             text-shadow: 2px 2px 5px black;
             }
 
@@ -436,7 +436,7 @@ text-shadow: 4px 4px 10px black;
 
             #footer_section {
                 background-color: #7ad17a;
-                padding: 25px 50px;
+                padding: 20px 40px;
                 border-top-left-radius: 150px;
                 border-bottom-right-radius: 150px;
                 margin-bottom: 15px;
